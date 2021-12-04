@@ -1,0 +1,27 @@
+.choose-heading{
+    font-size: 40px;
+    line-height: 49.2px
+}
+.rocket {
+    width: 26px;
+    font-size: 26px;
+    line-height: 26px;
+    margin-left: -40px;
+    margin-top: 5px;
+    color: #52BBE8;
+}
+.choose-container {
+    padding: 15px 0;
+    margin-left: 50px;
+    transform: translateY(-35px);
+}
+
+.choose-title {
+    font-size: 20px;
+    line-height: 19.2px;
+    font-weight: 800;
+
+}
+.choose-description{
+    font-size: 13px;
+}

@@ -1,0 +1,33 @@
+.nav-link {
+    margin-left: 20px;
+   
+}
+.nav-item a{
+    padding: 25px 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-item a:hover{
+    background-color: #52BBE8;
+    box-sizing: border-box;
+    transition: .6s all ease;
+    color: linen !important;
+}
+.common-gap{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+}
+p{
+    color: rgba(102, 102, 102, 0.76);
+}
+@media only screen and (max-width: 768px) {
+    .nav-item a{
+        padding: 15px 0;
+        box-sizing: border-box;
+       
+    }
+  
+  }
