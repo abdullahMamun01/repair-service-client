@@ -1,0 +1,42 @@
+.footer-main{
+    background-color: #212121;
+}
+
+.footer-col-title {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 21px;
+    line-height: 27.9px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid blue;
+}
+.about-describe{
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    line-height: 25.3px;
+}
+.contact{
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    line-height: 25.3px;
+}
+.list-style{
+    padding: 0;
+    margin: 0;
+}
+.list-style li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    line-height: 29.3px;
+    padding: 0;
+    margin: 0;
+    color: rgb(187, 187, 187);
+}
+.list-style li a{
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+.list-style li a:hover{
+    color: rgba(0, 0, 255, 0.411);
+    text-decoration: none;
+}

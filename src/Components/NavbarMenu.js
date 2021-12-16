@@ -1,19 +1,27 @@
 import React from "react";
 // import { AiOutlineMenu } from "@react-icons/all-files/fa/aiOutlineMenu";
-import { AiOutlineMenu, AiOutlineSearch,AiOutlinePhone,AiOutlineTwitter } from "react-icons/ai";
-import {FaFacebookF,FaInstagram} from "react-icons/fa"
+import {
+  AiOutlineMenu,
+  AiOutlineSearch,
+  AiOutlinePhone,
+  AiOutlineTwitter
+} from "react-icons/ai";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./../styles/App.css";
-
 
 const NavbarMenu = () => {
   return (
     <header class="">
-      <div class="wrap py-1" style={{background : '#000957'}}>
+      <div class="wrap py-1" style={{ background: "#000957" }}>
         <div class="container">
           <div class="row justify-content-between">
             <div class="col">
               <p class="mb-0 phone">
-                <AiOutlinePhone/> <a className="text-decoration-none text-secondary" href="#">+00 1234 567</a>
+                <AiOutlinePhone />{" "}
+                <a className="text-decoration-none text-secondary" href="#">
+                  +00 1234 567
+                </a>
               </p>
             </div>
             <div class="col d-flex justify-content-end">
@@ -51,7 +59,8 @@ const NavbarMenu = () => {
       </div>
       <nav
         className="navbar navbar-expand-lg navbar-dark text-secondary shadow-sm p-0"
-        id="ftco-navbar" style={{background : '#F4F6F8'}}
+        id="ftco-navbar"
+        style={{ background: "#F4F6F8" }}
       >
         <div className="container">
           <a className="navbar-brand text-dark fw-bold" href="index.html">
@@ -85,9 +94,9 @@ const NavbarMenu = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
               <li class="nav-item active">
-                <a href="#" className="nav-link text-secondary">
+                <Link to="/" className="nav-link text-secondary">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -117,11 +126,6 @@ const NavbarMenu = () => {
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link text-secondary">
-                  Catalog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-secondary">
                   Blog
                 </a>
               </li>
@@ -129,6 +133,10 @@ const NavbarMenu = () => {
                 <a href="#" class="nav-link text-secondary">
                   Contact
                 </a>
+              </li>
+              <li class="nav-item d-flex">
+                  <Link to="/login" className="nav-link text-danger">Login /</Link>
+                  <Link to="/signup" className="text-secondary text-decoration-none">signup</Link>
               </li>
             </ul>
           </div>

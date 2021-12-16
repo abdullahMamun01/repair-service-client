@@ -9,7 +9,7 @@ const Services = ({ service }) => {
           <Card.Img variant="top" className="h-50" src={imageUrl} />
           <Card.Body className="py-5">
             <Card.Title className="service-title text-info">{serviceName}</Card.Title>
-            <Card.Text className="text-secondary">{serviceDetails}</Card.Text>
+            <Card.Text className="description fs-6">{serviceDetails}</Card.Text>
           </Card.Body>
         </Card>
         <div className="p-2 pb-4 text-info ">

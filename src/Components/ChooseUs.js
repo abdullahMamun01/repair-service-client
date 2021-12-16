@@ -53,10 +53,9 @@ const ChooseUs = () => {
         <Row xs={1} md={4} className="m-auto mt-5 pt-2 g-4">
           {choseData.map((data) => (
             <Col>
-              <div>
+              <div className="choose-body">
                 <img className="rocket-img" src={data.img} alt="" />
-                <img className="rocket" src={data.icon} alt="" />
-                {/* <FaUserFriends className="rocket" /> */}
+                <img className="icon-image" src={data.icon} alt="" />
                 <div className="choose-container">
                   <h1 className="choose-title">{data.title}</h1>
                   <p className="choose-description">{data.description}</p>
